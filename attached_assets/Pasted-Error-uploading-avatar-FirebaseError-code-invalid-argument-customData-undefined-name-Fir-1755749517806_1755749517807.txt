@@ -1,0 +1,28 @@
+Error uploading avatar: 
+_FirebaseError {code: "invalid-argument", customData: undefined, name: "FirebaseError", toString: ƒ}
+code: "invalid-argument"
+customData: undefined
+name: "FirebaseError"
+toString: ƒ () => `${this.name}: [code=${this.code}]: ${this.message}`
+length: 0
+name: ""
+[[Prototype]]: ƒ ()
+message: "Document 'projects/movie-da146/databases/(default)/documents/users/jXiA7imTXIMS4pJ82gZWZBuTW9f2' cannot be written because its size (1,089,812 bytes) exceeds the maximum allowed size of 1,048,576 bytes."
+stack: "FirebaseError: Document 'projects/movie-da146/databases/(default)/documents/users/jXiA7imTXIMS4pJ82gZWZBuTW9f2' cannot be written because its size (1,089,812 bytes) exceeds the maximum allowed size of 1,048,576 bytes."
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+constructor: ƒ class _FirebaseError extends Error {↵ constructor(code, message, customData) {↵ super(message);↵ this.code = code;↵ this.customData = customData;↵ this.name = ERROR_NAME;↵ Object.setPrototypeOf(this, _FirebaseError.prototype);↵ if (Error.captureStackTrace) {↵ Error.captureStackTrace(this, ErrorFactory.prototype.create);↵ }↵ }↵}
+[[Prototype]]: Object
+
+at t.value (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Error uploading avatar: 
+Error {}
+
+at t.value (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://3f656f15-c0e3-478c-bf1b-eaf700fb2a11-00-23orhy3lsyxhr.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
